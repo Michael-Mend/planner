@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+button {
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    background-image: url(images/sv.png);
+    background-size: cover;
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-image: url(images/svs.png);
+}
+  
+textarea {
+  width: 100%;
+}
+  
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+}
+  
+.past {
+    background-color: #d3d3d3;
+    color: white;
+}
+  
+.present {
+    background-color: #ff6961;
+    color: white;
+}
+  
+.future {
+    background-color: #77dd77;
+    color: white;
+}
+
+.sTime {
+    margin-top: 20px;
+    font-size: 24px;
+}
+  
