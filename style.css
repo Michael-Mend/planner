@@ -24,6 +24,11 @@ button:active {
 textarea {
   width: 100%;
 }
+
+.hidden {
+    visibility: hidden;
+    line-height: 5;
+}
   
 .jumbotron {
     text-align: center;
