@@ -23,8 +23,8 @@ correlating style.
 ![ppf](https://user-images.githubusercontent.com/58165715/73679302-1f216400-4688-11ea-9ce1-b2358a2136dc.JPG)
  * the '- 9' is used to make index 0 = 9am
  
- The save button stores the text area in local storage so upon reloading the page the text will remain in the text box. Finally, the
- clear button empties local storage and the time clock textareas to clear the page.
+The save button stores the text area in local storage so upon reloading the page the text will remain in the text box. Finally, the
+clear button empties local storage and the time clock textareas to clear the page.
  
  ![svclr](https://user-images.githubusercontent.com/58165715/73679852-3c0a6700-4689-11ea-82b8-4437f1b1efc9.JPG)
 
