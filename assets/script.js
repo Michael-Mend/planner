@@ -5,11 +5,11 @@ for (i = 0; i < timeBlock.length; i++) {
     
     $('#txt' + i).text(localStorage.getItem(i));
 
-    if ($('#' + i).attr('id') + 0 > moment().format('H') - 9) {
+    if ($('#' + i).attr('id') > moment().format('H') - 9) {
         $('#txt' + i).attr('class', 'future')
-    } else if ($('#' + i).attr('id') + 0 == moment().format('H') - 9) {
+    } else if ($('#' + i).attr('id') == moment().format('H') - 9) {
         $('#txt' + i).attr('class', 'present')
-    } else if ($('#' + i).attr('id') < 0 == moment().format('H') - 9) {
+    } else if ($('#' + i).attr('id') < moment().format('H') - 9) {
         $('#txt' + i).attr('class', 'past')
     }
 };
