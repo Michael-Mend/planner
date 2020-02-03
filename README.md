@@ -10,5 +10,4 @@ either red, blue, or green; which denotes past, present, or future respectively.
 
 finally the clear button allows the user to clear all text inputs and localstorage.
 
-
 ## structure

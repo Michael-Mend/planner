@@ -16,7 +16,7 @@ for (i = 0; i < timeBlock.length; i++) {
 
 setInterval(function(){
     $('#td').html(moment().format('MMMM Do YYYY h:mm a'));
-},30000);
+},10000);
 
 $('#td').html(moment().format('MMMM Do YYYY h:mm a'));
 
