@@ -3,16 +3,13 @@ body {
     font-size: 16px;
     line-height: 1;
 }
-
 textarea {
   width: 100%;
 }
-  
 .hidden {
     visibility: hidden;
     line-height: 5;
 }
-  
 .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -20,27 +17,22 @@ textarea {
     border-radius: 0;
     border-bottom: 10px solid black;
 }
-  
 .past {
-    background-color: #ff6961;
-    color: red;
-}
-  
-.present {
-    background-color: blue;
-    color: blue;
-}
-  
-.future {
-    background-color: #77dd77;
+    background-color: red;
     color: white;
 }
-
+.present {
+    background-color: blue;
+    color: white;
+}
+.future {
+    background-color: green;
+    color: white;
+}
 .sTime {
     margin-top: 20px;
     font-size: 24px;
 }
-
 .sv {
     height: 65px;
     width: 100%;
@@ -49,15 +41,12 @@ textarea {
     background-size: cover;
     border: none;
 }
-
 .sv:focus {
     outline: none;
 }
-
 .sv:active {
     background-image: url(images/svs.png);
 }
-
 #clr {
     margin-top: 15px;
     width: 100%;
