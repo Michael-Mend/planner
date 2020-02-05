@@ -4,6 +4,7 @@ body {
     line-height: 1;
     background-image: url(images/bs.png);
     color: rgb(0, 61, 61);
+    overflow-x: hidden; 
 }
 textarea {
   width: 100%;
@@ -11,7 +12,7 @@ textarea {
 }
 .hidden {
     visibility: hidden;
-    line-height: 5;
+    line-height: 4.75;
 }
 .past {
     background-color: rgb(255, 182, 182);
